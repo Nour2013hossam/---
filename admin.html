@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لوحة إدارة | توجيه صحافة شرق</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="admin-body">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-logo">ش</span><span>توجيه صحافة شرق</span></a>
+    <nav class="admin-nav" aria-label="لوحة الإدارة">
+      <a class="active" href="#">لوحة التحكم</a>
+      <a href="#">الأخبار</a>
+      <a href="#">الأعضاء</a>
+      <a href="#">المعرض</a>
+      <a href="#">الفعاليات</a>
+      <a href="#">حسابات المستخدمين</a>
+    </nav>
+  </aside>
+  <main class="dashboard">
+    <header class="dashboard-header">
+      <div><p class="eyebrow">لوحة الإدارة</p><h1>إدارة المحتوى الإعلامي</h1></div>
+      <button class="btn primary">إضافة خبر جديد</button>
+    </header>
+    <section class="dashboard-stats">
+      <article><span>الأخبار</span><strong>38</strong><small>+6 هذا الشهر</small></article>
+      <article><span>الأعضاء</span><strong>45</strong><small>12 محرر نشط</small></article>
+      <article><span>صور المعرض</span><strong>214</strong><small>آخر تحديث اليوم</small></article>
+      <article><span>الفعاليات</span><strong>18</strong><small>4 قادمة</small></article>
+    </section>
+    <section class="admin-grid">
+      <article class="panel large-panel">
+        <div class="panel-head"><h2>آخر المواد الصحفية</h2><a href="#">عرض الكل</a></div>
+        <table>
+          <thead><tr><th>العنوان</th><th>القسم</th><th>الحالة</th><th>التاريخ</th></tr></thead>
+          <tbody>
+            <tr><td>ورشة مهارات التحرير</td><td>أخبار</td><td><span class="badge done">منشور</span></td><td>16 يونيو 2026</td></tr>
+            <tr><td>تغطية المبادرة التعليمية</td><td>تغطيات</td><td><span class="badge review">مراجعة</span></td><td>14 يونيو 2026</td></tr>
+            <tr><td>إصدار مجلة الفصل الدراسي</td><td>مجلات</td><td><span class="badge draft">مسودة</span></td><td>10 يونيو 2026</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><h2>إجراءات سريعة</h2></div>
+        <div class="quick-actions"><button>رفع صور للمعرض</button><button>تسجيل عضو جديد</button><button>جدولة فعالية</button><button>إدارة المستخدمين</button></div>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><h2>الفعاليات القادمة</h2></div>
+        <ul class="event-list"><li><strong>تغطية ندوة إعلامية</strong><span>20 يونيو</span></li><li><strong>اجتماع فريق التحرير</strong><span>24 يونيو</span></li><li><strong>حفل تكريم المتميزين</strong><span>30 يونيو</span></li></ul>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
